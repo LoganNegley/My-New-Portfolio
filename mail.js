@@ -3,12 +3,12 @@ const mailGun = require('nodemailer-mailgun-transport');
 require('dotenv').config()
 
 const mailgunKey = process.env.KEY
-const domain = process.env.DOMAIN
+const domainName = process.env.DOMAIN
 
 const auth ={
     auth:{
         api_key:mailgunKey,
-        domain:domain
+        domain:domainName
     }
 };
 
