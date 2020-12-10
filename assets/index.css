@@ -162,6 +162,9 @@ p{
     font-size: 1.5rem;
     margin:1rem 0 1rem .5rem;
 }
+.project p:nth-child(3){
+    font-style: italic;
+}
 .project img{
     width: 75%;
     height:350px;
